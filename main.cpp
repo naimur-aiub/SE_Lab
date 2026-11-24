@@ -12,8 +12,6 @@ void drawScene()
 
     glColor3f(1.0f, 0.0f, 0.0f);
 
-    glTranslatef(_move, 0.0f, 0.0f);
-
     glBegin(GL_QUADS);
         glVertex2f(100, 100);
         glVertex2f(100, 150);
