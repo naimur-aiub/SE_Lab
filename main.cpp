@@ -10,7 +10,7 @@ void drawScene()
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
 
-    glColor3f(1.0f, 2f, 0.0f);
+    glColor3f(1.0f, 0.0f);
 
     glBegin(GL_QUADS);
         glVertex2f(100, 100);
